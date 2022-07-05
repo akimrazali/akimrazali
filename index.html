@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>index</title>
+</head>
+<body bgcolor="#d14d4d">
+<table width="100%">
+<tr align="center" bgcolor="#005700">
+<th colspan="5"><font face="comic sans ms" font size="40" font color="#d14d4d">MY PERSONAL WEBSITE</font></th>
+</tr>
+<tr align="center" bgcolor="#005700">
+<td><a href="index.html"><font color="white"><B>HOME</B></font></a></td>
+<td><a href="biodata.html"><font color="white"><B>BIODATA</B></font></a></td>
+<td><a href="experience.html"><font color="white"><B>EXPERIENCE</B></font></a></td>
+<td><a href="education.html"><font color="white"><B>EDUCATION</B></font></a></td>
+<td><a href="family.html"><font color="white"><B>FAMILY</B></font></a></td>
+</table>
+<br>
+<br>
+<br>
+<center><img src="images/me5.jpg" width=30% height="70%" border="5"
+hspace="20" vspace="10"></center>
+<marquee direction="left" scrolldelay="60"><font size="5"><i><B>Hello there! My name is Hakim but you can call me KIM, and this is my journey :)</B></i></font></marquee>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><font face="times new roman" font size="30" font color=#005700"><b>WELCOME TO MY WEBSITE</b></center></font> 
+<br>
+<br>
+<br>
+<center><font><i>Here i put some of famous quotes from famous people with different arenas. All of these quotes are my favourite quotes that i believe are strong and can become a key to success</i></font></center>
+<br>
+<br>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: left;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #2e0000;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 9</div>
+  <img src="images/albert.jpg" style="width:100%">
+  <div class="text">ALBERT EISNTEIN</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 9</div>
+  <img src="images/aristotle.jpg" style="width:100%">
+  <div class="text">ARISTOTLE</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 9</div>
+  <img src="images/elon.jpg" style="width:100%">
+  <div class="text">ELON MUSK</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 9</div>
+  <img src="images/jk.jpg" style="width:100%">
+  <div class="text">JK.ROWLING</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 9</div>
+  <img src="images/mark.jpg" style="width:100%">
+  <div class="text">MARK</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 9</div>
+  <img src="images/marie.jpg" style="width:100%">
+  <div class="text">MARIE CURIE</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 9</div>
+  <img src="images/richord.jpg" style="width:100%">
+  <div class="text">RICHORD</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 9</div>
+  <img src="images/lg.jpg" style="width:100%">
+  <div class="text">LADY GAGA</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 9</div>
+  <img src="images/steve.jpg" style="width:100%">
+  <div class="text">STEVE JOBS</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 7000); // Change image every 7 seconds
+}
+</script>
+<br>
+<br>
+<audio controls autoplay loop="infinite">
+<source src="audios/asitwas.mpeg" type="audio/mpeg" hidden="true">
+</audio>
+</body>
+</html>

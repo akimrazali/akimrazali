@@ -1,0 +1,271 @@
+<html>
+<head>
+<title>EDUCATION</title>
+</head>
+<body bgcolor="#d14d4d">
+<table width="100%">
+<tr align="center" bgcolor="#005700">
+<th colspan="5"><font face="comic sans ms" font size="40" font color="#d14d4d">EDUCATION</font></th>
+</tr>
+<tr align="center" bgcolor="#005700">
+<td><a href="index.html"><font color="white"><B>HOME</B></font></a></td>
+<td><a href="biodata.html"><font color="white"><B>BIODATA</B></font></a></td>
+<td><a href="experience.html"><font color="white"><B>EXPERIENCE</B></font></a></td>
+<td><a href="education.html"><font color="white"><B>EDUCATION</B></font></a></td>
+<td><a href="family.html"><font color="white"><B>FAMILY</B></font></a></td>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+</style><br>
+</head>
+<body>
+
+<style>
+      .slider {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slider">
+      <span id="slide-1"></span>
+      <span id="slide-2"></span>
+      <span id="slide-3"></span>
+      <div class="image-container">
+        <img src="images/edu1.jpg" class="slide" width="500" height="300" />
+        <img src="images/edu3.jpg" class="slide" width="500" height="300" />
+        <img src="images/edu4.jpg" class="slide" width="500" height="300" />
+      </div>
+      <div class="buttons">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+      </div>
+    </div>
+
+<div class="city">
+<h2>SEKOLAH KEBANGSAAN JELUTONG</h2>
+<p>This is my first school where i get my education here.SKJ is a best place for parents to choose on which primary school they want to send their children. This is because SKJ has a lot of kind-hearted teachers where they are really take a good care of their students.Besides, i have met amazing and beautifiul friends that are my peers,We have created so many memories here in SKJ and these memories will forever be in mty heart.</p>
+</div> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: left;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #2e0000;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<center>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="images/edu5.jpg" style="width:50%">
+  <div class="text">MRSM</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="images/edu6.jpg" style="width:50%">
+  <div class="text">MRSM</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="images/edu7.jpg" style="width:50%">
+  <div class="text">MRSM</div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</center>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="city">
+<h2>MARA JUNIOR SCIENCE COLLEGE(MJSC BP)</h2>
+<p>This is my secondary school which is MARA Junior Science College(MJSC) which is located at Balik Pulau, Penang. MARA Junior Science College (MJSC) (Malay: Maktab Rendah Sains MARA (MRSM)) is a group of boarding schools created by Majlis Amanah Rakyat (MARA), a Malaysian government agency. The institution provides learning facilities for bright students in local schools throughout Malaysia.I started my journey in MRSM right after my UPSR result came.At that moment, i was so scared to enter MRSM because it is a boarding school and I am afraid to be separate from my family but i have my English teacher to thank for which is Madam Shahdayanti, who motivated me to enter MRSM. Life as a boarding school students are very challenging, besides im still 13 years old.But, i admit that i have learn a lot of things in MRSM and the school have taught me to survive and be brave in defending myself.Furthermore,i also get many friends there, and we were like a normal teenagers at our age.</p>
+</div> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><a href =https://youtu.be/Mwnrneeyazs>YOUTUBE</a></center>
+<center><font bgcolor="white">CLICK this "YOUTUBE" link, to see one of my special event at primary school</font></center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><img src="images/me6.jpg" width=70% height="70%" border="5" hspace="20" vspace="10"></center>
+<br>
+<br>
+<audio controls autoplay loop="infinite">
+<source src="audios/asitwas.mpeg" type="audio/mpeg" hidden="true">
+</audio>
+</body>
+</html>

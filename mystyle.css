@@ -1,0 +1,23 @@
+body {
+  background-color: #CCCCFF;
+}
+
+h1
+{
+text-align: center;
+color: #800080;
+font-family: Comic Sans MS
+}
+
+p
+{
+text-align: center;
+color: black;
+font-family: Constantia
+}
+
+table, th, td 
+{
+  border:1px solid black;
+  width: 100%;
+}
